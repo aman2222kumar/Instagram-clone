@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Instagram-clone/static/css/main.f006b98d.css",
+    "main.js": "/Instagram-clone/static/js/main.eab312d7.js",
+    "static/js/787.c0ef2a91.chunk.js": "/Instagram-clone/static/js/787.c0ef2a91.chunk.js",
+    "static/media/Gluehlampen1_1.mp4": "/Instagram-clone/static/media/Gluehlampen1_1.751b18758ed60030a4dc.mp4",
+    "static/media/Countdown3.mp4": "/Instagram-clone/static/media/Countdown3.525e2ab54f4983c05db3.mp4",
+    "static/media/ccc.mp4": "/Instagram-clone/static/media/ccc.994ebfb57604212bef30.mp4",
+    "static/media/tom.png": "/Instagram-clone/static/media/tom.384798f5e26bdf115bdd.png",
+    "static/media/blackandwhitepic.png": "/Instagram-clone/static/media/blackandwhitepic.5a830057a8d12282d6a7.png",
+    "static/media/yellowAndWhiteGirl.jpg": "/Instagram-clone/static/media/yellowAndWhiteGirl.4442fe5bc003edf62a37.jpg",
+    "static/media/fairy.png": "/Instagram-clone/static/media/fairy.12ef4d03b3d8827a192a.png",
+    "static/media/happycrab.jpg": "/Instagram-clone/static/media/happycrab.fe186af6c8d8977b48c3.jpg",
+    "static/media/KS.png": "/Instagram-clone/static/media/KS.e305b64ce3387e0e1a85.png",
+    "static/media/posegirl.jpg": "/Instagram-clone/static/media/posegirl.02d860c43bccf3522a32.jpg",
+    "static/media/cutegot.jpg": "/Instagram-clone/static/media/cutegot.7e2a5d346191e071f87a.jpg",
+    "static/media/cutebear.jpg": "/Instagram-clone/static/media/cutebear.36d61bb53545f7108da9.jpg",
+    "static/media/innocentlookinggirl.jpg": "/Instagram-clone/static/media/innocentlookinggirl.5819a0784318a180d465.jpg",
+    "static/media/cutefish.jpg": "/Instagram-clone/static/media/cutefish.afa875ade32011c0f3f8.jpg",
+    "static/media/thesimpson.png": "/Instagram-clone/static/media/thesimpson.34d6b3fe111afdd7ca70.png",
+    "static/media/aman.jpg": "/Instagram-clone/static/media/aman.4da0f2cd4c3d39b5a502.jpg",
+    "static/media/Gallery_icon.png": "/Instagram-clone/static/media/Gallery_icon.d3eba09614c247974633.png",
+    "static/media/dangrousgirl.jpg": "/Instagram-clone/static/media/dangrousgirl.8c181952b91c2393b78e.jpg",
+    "static/media/student.png": "/Instagram-clone/static/media/student.a9aa31ca16be612de3af.png",
+    "static/media/girlCute.jpg": "/Instagram-clone/static/media/girlCute.a4c6d6271b7f89130c86.jpg",
+    "static/media/logo.svg": "/Instagram-clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Instagram-clone/index.html",
+    "main.f006b98d.css.map": "/Instagram-clone/static/css/main.f006b98d.css.map",
+    "main.eab312d7.js.map": "/Instagram-clone/static/js/main.eab312d7.js.map",
+    "787.c0ef2a91.chunk.js.map": "/Instagram-clone/static/js/787.c0ef2a91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f006b98d.css",
+    "static/js/main.eab312d7.js"
+  ]
+}
