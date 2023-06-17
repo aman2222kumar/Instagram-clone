@@ -194,6 +194,29 @@ function MainContentSubParent() {
   const [isHome, setHome] = useState(true);
   const [isNotification, setnotificaation] = useState(false);
 
+  //search bar
+  const [iskeyPress, setKeyPress] = useState(false);
+  const [searchData, setSearchData] = useState("");
+
+  function handleDataOfSearch() {
+    setSearchData("");
+    setKeyPress(false);
+  }
+
+  function handleCheckKey(e) {
+    if (iskeyPress === false) {
+      setKeyPress(true);
+    }
+  }
+
+  function handlecheckWhetherActive() {
+    setKeyPress(true);
+  }
+
+  function handleChange(e) {
+    setSearchData(e.target.value);
+  }
+
   //functions
 
   function handleCommentPopupContent(e) {}
@@ -208,6 +231,7 @@ function MainContentSubParent() {
 
   function handleOverlaySearchModal() {
     setSearchModalActive(false);
+    setSearchData("");
   }
   function handleSearchModalOpen() {
     if (isSearchModalActive === false) {
@@ -504,6 +528,12 @@ function MainContentSubParent() {
         )}
 
         <SearchBar
+          handleDataOfSearch={handleDataOfSearch}
+          iskeyPress={iskeyPress}
+          searchData={searchData}
+          handleChange={handleChange}
+          handleCheckKey={handleCheckKey}
+          handlecheckWhetherActive={handlecheckWhetherActive}
           parentContainer_ofSearch="searchParent"
           searchOff={handleOverlaySearchModal}
           overlayDisplay={isSearchModalActive ? "block" : "none"}

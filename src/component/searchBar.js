@@ -1,29 +1,28 @@
-import { useState } from "react";
 import { IoMdCloseCircle } from "react-icons/io";
 import { userDataContext } from "../mainContent";
 
 function SearchBar(props) {
-  const [iskeyPress, setKeyPress] = useState(false);
-  const [searchData, setSearchData] = useState("");
+  // const [iskeyPress, setKeyPress] = useState(false);
+  // const [searchData, setSearchData] = useState("");
 
-  function handleDataOfSearch() {
-    setSearchData("");
-    setKeyPress(false);
-  }
+  // function handleDataOfSearch() {
+  //   setSearchData("");
+  //   setKeyPress(false);
+  // }
 
-  function handleCheckKey(e) {
-    if (iskeyPress === false) {
-      setKeyPress(true);
-    }
-  }
+  // function handleCheckKey(e) {
+  //   if (iskeyPress === false) {
+  //     setKeyPress(true);
+  //   }
+  // }
 
-  function handlecheckWhetherActive() {
-    setKeyPress(true);
-  }
+  // function handlecheckWhetherActive() {
+  //   setKeyPress(true);
+  // }
 
-  function handleChange(e) {
-    setSearchData(e.target.value);
-  }
+  // function handleChange(e) {
+  //   setSearchData(e.target.value);
+  // }
 
   return (
     <>
@@ -38,16 +37,16 @@ function SearchBar(props) {
           <div className="search_container">
             <input
               type="text"
-              value={searchData}
+              value={props.searchData}
               placeholder="search"
-              onChange={handleChange}
-              onFocus={handleCheckKey}
-              onKeyUp={handlecheckWhetherActive}
+              onChange={props.handleChange}
+              onFocus={props.handleCheckKey}
+              onKeyUp={props.handlecheckWhetherActive}
             ></input>
-            {iskeyPress && (
+            {props.iskeyPress && (
               <IoMdCloseCircle
                 className="closecircle"
-                onClick={handleDataOfSearch}
+                onClick={props.handleDataOfSearch}
               />
             )}
             <p></p>
@@ -59,12 +58,12 @@ function SearchBar(props) {
                 return (
                   <>
                     {v.map((item) => {
-                      if (searchData === "") {
-                        return searchData;
+                      if (props.searchData === "") {
+                        return props.searchData;
                       } else if (
                         item.userName
                           .toLocaleLowerCase()
-                          .includes(searchData.toLocaleLowerCase())
+                          .includes(props.searchData.toLocaleLowerCase())
                       ) {
                         return (
                           <>
